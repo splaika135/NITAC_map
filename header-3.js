@@ -26,4 +26,4 @@ function showSearch() {
   navWrapper.classList.remove("active");
 }
 
-=> https://github.com/shadeed/headers-css/blob/master/js/header-3.js
+/** => https://github.com/shadeed/headers-css/blob/master/js/header-3.js **/
