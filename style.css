@@ -12,7 +12,7 @@
 
 
 
-@media all and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 /*スマホ用→*/
 
 
@@ -22,10 +22,4 @@
 
 
 /*→スマホ用*/
-}
-
-body {
-word-wrap: break-word;
-white-space: pre-wrap;
-overflow-wrap: break-word;
 }
