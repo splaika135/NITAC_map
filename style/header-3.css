@@ -1,5 +1,4 @@
 /* 
-** => https://github.com/shadeed/headers-css/blob/master/styles/header-3.css **
 ** The Header Media Queries **
 ** Tweak as per your needs **
 */
@@ -106,3 +105,8 @@
     @media (max-width: 799px) {
       .search__form input {
         border-bottom: 1px solid #979797; } }
+
+/*
+** ©shadeed **
+** https://github.com/shadeed/headers-css/blob/master/styles/header-3.css **
+*/
