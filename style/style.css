@@ -1,28 +1,28 @@
 @charset "UTF-8";
-/*PC用→*/
+/*PC-SP共通→*/
 
 a {
 font-weight:bold;
 text-decoration:none;
 }
-
 a:link {
 color:#FFFFFF;
 }
-
 a:visited {
 color:#FFFFFF;
 }
-
 a:hover {
 color:#FFFFFF;
 text-decoration:underline;
 }
-
 a:active {
 color:#FFFFFF;
 }
 
+/*→PC-SP共通*/
+
+@media (min-width: 800px) {
+/*PC用→*/
 
 .textBox {
   width: 960px;
@@ -30,9 +30,12 @@ color:#FFFFFF;
 }
 
 
+
+
+
+
 /*→PC用*/
-
-
+}
 
 @media screen and (max-width: 799px) {
 /*スマホ用→*/
