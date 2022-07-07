@@ -1,6 +1,28 @@
 @charset "UTF-8";
 /*PC用→*/
 
+a {
+font-weight:bold;
+text-decoration:none;
+}
+
+a:link {
+color:#0000FF;
+}
+
+a:visited {
+color:#6600FF;
+}
+
+a:hover {
+color:#FF0099;
+text-decoration:underline;
+}
+
+a:active {
+color:#33CC00;
+}
+
 
 .textBox {
   width: 960px;
