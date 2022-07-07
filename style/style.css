@@ -29,7 +29,7 @@ color:#FFFFFF;
 /*PC用→*/
 
 .textBox {
-  width: 960px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -41,7 +41,7 @@ color:#FFFFFF;
 /*→PC用*/
 }
 
-@media screen and (max-width: 799px) {
+@media all and (max-width: 799px) {
 /*スマホ用→*/
 
 
