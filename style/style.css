@@ -19,6 +19,10 @@ a:active {
 color:#FFFFFF;
 }
 
+.resize img { width: 100%; }
+
+
+
 /*→PC-SP共通*/
 
 @media (min-width: 800px) {
