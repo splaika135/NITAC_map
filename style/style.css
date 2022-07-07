@@ -7,20 +7,20 @@ text-decoration:none;
 }
 
 a:link {
-color:#0000FF;
+color:#FFFFFF;
 }
 
 a:visited {
-color:#6600FF;
+color:#FFFFFF;
 }
 
 a:hover {
-color:#FF0099;
+color:#FFFFFF;
 text-decoration:underline;
 }
 
 a:active {
-color:#33CC00;
+color:#FFFFFF;
 }
 
 
