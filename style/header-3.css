@@ -59,7 +59,9 @@
       display: block;
       position: absolute;
       right: 1rem;
-      top: 1rem; } }
+      top: 1rem;
+      border: none;
+      outline: none; } }
 .search {
   display: flex; }
 
