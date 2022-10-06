@@ -14,7 +14,7 @@ https://yamatooo.blog/entry/2021/07/10/083000
 
 ## 借りた素材など
 ©shadeed
-https://github.com/shadeed/headers-css
+https://github.com/shadeed/headers-css/
 
 
 ## 使用ツール
