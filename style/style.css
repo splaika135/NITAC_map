@@ -23,6 +23,8 @@ a:active { color: #FFFFFF; }
   color: #991c30;
   font-size: 2.6rem;
   text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .ar { color:#991c30; }
