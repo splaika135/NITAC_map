@@ -2,25 +2,25 @@
 /*PC-SP共通→*/
 
 a {
-font-weight:bold;
-text-decoration:none;
+font-weight: bold;
+text-decoration: none;
 }
 
-a:link { color:#FFFFFF; }
+a:link { color: #FFFFFF; }
 
-a:visited { color:#FFFFFF; }
+a:visited { color: #FFFFFF; }
 
 a:hover {
-color:#FFFFFF;
-text-decoration:underline;
+color: #FFFFFF;
+text-decoration: underline;
 }
 
-a:active { color:#FFFFFF; }
+a:active { color: #FFFFFF; }
 
 .resize img { width: 100%; }
 
 .tar {
-  color:#991c30;
+  color: #991c30;
   font-size: 2.6rem;
   text-align: center;
 }
