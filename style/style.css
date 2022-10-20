@@ -29,6 +29,20 @@ a:active { color: #FFFFFF; }
 
 .ar { color:#991c30; }
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border: 1px solid black;
+}
+th {
+    border-collapse: separate;
+    border: 1px solid black;
+}
+td {
+    border-collapse: separate;
+    border: 1px solid black;
+}
 
 
 /*→PC-SP共通*/
