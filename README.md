@@ -13,6 +13,10 @@ https://yamatooo.blog/entry/2021/07/10/083000
 
 https://mapfan.com
 
+https://step-learn.com/article/html-css/index.html
+
+https://saruwakakun.com/html-css/basic/table
+
 
 ## 借りた素材など
 ©shadeed
