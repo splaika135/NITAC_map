@@ -1,8 +1,8 @@
 var data=[
-'a b c d e',
-'あ い う え お',
-'か き く け こ',
-'さ し す せ そ'
+'a b c',
+'あ い う',
+'か き く',
+'さ し す'
 ],h='<table border="1">';
 
 for(var i=0;i<data.length; i++)h+=i?
