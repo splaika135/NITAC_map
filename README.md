@@ -17,6 +17,8 @@ https://step-learn.com/article/html-css/index.html
 
 https://saruwakakun.com/html-css/basic/table
 
+https://oshiete.goo.ne.jp/qa/4383130.html
+
 
 ## 借りた素材など
 ©shadeed
