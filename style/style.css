@@ -11,8 +11,8 @@ a:link { color: #FFFFFF; }
 a:visited { color: #FFFFFF; }
 
 a:hover {
-color: #FFFFFF;
-text-decoration: underline;
+  color: #FFFFFF;
+  text-decoration: underline;
 }
 
 a:active { color: #FFFFFF; }
