@@ -20,11 +20,11 @@ a:active { color: #FFFFFF; }
 .resize img { width: 100%; }
 
 .tar {
-  color: #991c30;
-  font-size: 2.6rem;
-  text-align: center;
-  font-weight: bold;
-  text-decoration: underline;
+    color: #991c30;
+    font-size: 2.6rem;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .ar { color:#991c30; }
@@ -33,7 +33,8 @@ table {
     margin-left: auto;
     margin-right: auto;
     border-collapse: separate;
-    border: 1px solid black;
+    border-spacing: 2px;
+    border: 2px solid black;
 }
 th {
     border-collapse: separate;
