@@ -17,7 +17,12 @@ a:hover {
 
 a:active { color: #FFFFFF; }
 
-.resize img { width: 100%; }
+.resize img {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .tar {
   color: #991c30;
