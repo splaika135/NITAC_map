@@ -3,14 +3,23 @@
 
 body {
 　background-color: #FAFAD2;
-　a:link: #FFFFFF;
-　a:active: #FFFFFF;
-　a:visited: #FFFFFF;
 }
 
 a {
   font-weight: bold;
   text-decoration: none;
+}
+
+a:link {
+  color: #FFFFFF;
+}
+
+a:active {
+  color: #FFFFFF;
+}
+
+a:visited {
+ color: #FFFFFF; 
 }
 
 a:hover {
