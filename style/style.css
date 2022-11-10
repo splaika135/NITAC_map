@@ -1,27 +1,21 @@
 @charset "UTF-8";
 /*PC-SP共通→*/
 
+body {
+　background-color: #FAFAD2;
+　a:link: #FFFFFF;
+　a:active: #FFFFFF;
+　a:visited: #FFFFFF;
+}
+
 a {
   font-weight: bold;
   text-decoration: none;
 }
 
-a:link { color: #FFFFFF; }
-
-a:visited { color: #FFFFFF; }
-
 a:hover {
   color: #FFFFFF;
   text-decoration: underline;
-}
-
-a:active { color: #FFFFFF; }
-
-.resize img {
-  width: 60%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .tar {
@@ -65,8 +59,12 @@ td {
   margin: 0 auto;
 }
 
-
-
+.resize img {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
@@ -82,7 +80,10 @@ td {
   width: 100%;  
 }
 
-
+.resize img {
+  width: 100%;
+  display: block;
+}
 
 
 
