@@ -2,7 +2,7 @@
 /*PC-SP共通→*/
 
 body {
-　background-color: #FAFAD2;
+　background-color: #fafad2;
 }
 
 a {
@@ -11,19 +11,19 @@ a {
 }
 
 a:link {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 a:active {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 a:visited {
- color: #FFFFFF; 
+ color: #ffffff; 
 }
 
 a:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: underline;
 }
 
