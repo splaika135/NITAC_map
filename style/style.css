@@ -27,6 +27,28 @@ a:hover {
   text-decoration: underline;
 }
 
+.marquee {
+  overflow: hidden;
+}
+
+.marquee p {
+  display: inline-block;
+  white-space: nowrap;
+  animation-name: marquee;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes marquee {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
 .tar {
   color: #991c30;
   font-size: 2.6rem;
