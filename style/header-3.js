@@ -25,8 +25,3 @@ function showSearch() {
   navToggle.setAttribute("aria-label", "menu");
   navWrapper.classList.remove("active");
 }
-
-/*
-** ©shadeed **
-** https://github.com/shadeed/headers-css/blob/master/js/header-3.js **
-*/
