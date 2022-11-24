@@ -1,3 +1,5 @@
+let table = document.getElementById('table');
+
 var data=[
 '日付 内容 備考',
 '2022/11/17 トップページ完成 変わる可能性アリ',
@@ -6,4 +8,4 @@ var data=[
 ],h='<table border="1">';
 
 for(var i=0;i<data.length; i++)h+=i?
-  '<tr><td>'+data[i].replace(/ /g,'</td><td>')+'</td></tr>':'<tr><th>'+data[i].replace(/ /g,'</th><th>')+'</th></tr>';document.write(h+'</table>');
+  '<tr><td>'+data[i].replace(/ /g,'</td><td>')+'</td></tr>':'<tr><th>'+data[i].replace(/ /g,'</th><th>')+'</th></tr>';table.insertAdjacentHTML('afterbegin', h+'</table>');
