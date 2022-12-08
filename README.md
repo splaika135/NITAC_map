@@ -23,6 +23,10 @@ https://taak.biz/archives/3747
 
 https://csshtml.work/spacing/
 
+https://qiita.com/hiroyuki-n/items/5786c8fc84eb85944681
+
+https://notetoself-dy.com/javascript-csv/#outline__4
+
 ## 借りた素材など
 ©shadeed
 https://github.com/shadeed/headers-css/
