@@ -2,7 +2,7 @@
 ## 案内サイト
 https://splaika135.github.io/NITAC_map/index.html
 
-##使い方
+## 使い方
 
 
 ## 参考
