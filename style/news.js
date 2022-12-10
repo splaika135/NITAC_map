@@ -1,7 +1,7 @@
 window.onload = function(){
 
 let output = document.getElementById("table");
-getCsv('news.csv');
+getCsv("news.csv");
 
 function getCsv(data){
 	let xhr = new XMLHttpRequest(); 
