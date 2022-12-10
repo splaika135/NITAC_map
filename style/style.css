@@ -65,19 +65,19 @@ table {
   margin-left: auto;
   margin-right: auto;
   border-collapse: separate;
-  border: 2px solid black;
+  border: 2px solid #991c30;
   border-spacing: 2px;
   line-height: 1.5;
   font-size: 1.1em;
 }
 th {
   border-collapse: separate;
-  border: 1px solid black;
+  border: 1px solid #991c30;
   padding: 3px 10px;
 }
 td {
   border-collapse: separate;
-  border: 1px solid black;
+  border: 1px solid #991c30;
   padding: 3px 10px;
 }
 
