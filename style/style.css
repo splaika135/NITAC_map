@@ -60,18 +60,15 @@ a:hover {
 .ar { color: #991c30; }
 
 table {
-  margin: 20px auto auto 10px;
+  margin-top:20px;
+  margin-bottom:10px;
+  margin-left: auto;
+  margin-right: auto;
   border-collapse: separate;
   border: 2px solid black;
   border-spacing: 2px;
   line-height: 1.5;
   font-size: 1.1em;
-  /*
-  margin-top:20px;
-  margin-bottom:10px;
-  margin-left: auto;
-  margin-right: auto;
-  */
 }
 th {
   border-collapse: separate;
