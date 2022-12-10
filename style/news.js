@@ -1,4 +1,5 @@
 window.onload = function(){
+
 let output = document.getElementById("table");
 getCsv('news.csv');
 
