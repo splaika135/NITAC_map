@@ -1,6 +1,6 @@
 window.onload = function(){
 let output = document.getElementById("table");
-getCsv('https://splaika135.github.io/NITAC_map/style/news.csv');
+getCsv('news.csv');
 
 function getCsv(data){
 	let xhr = new XMLHttpRequest(); 
