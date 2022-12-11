@@ -60,8 +60,8 @@ a:hover {
 .ar { color: #991c30; }
 
 table {
-  margin-top:20px;
-  margin-bottom:10px;
+  margin-top: 30px;
+  margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
   border-collapse: separate;
