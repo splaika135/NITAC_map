@@ -22,7 +22,7 @@ function getCsv(data){
 function csvArr(dataArr){
 	let arr =[];
   let list = dataArr.split('\n');
-  for(let i = 0; i < list.length; i++){
+  for(let i = 0; i < list.length - 1; i++){
     arr[i] = list[i].split(',');
   }
 	htmlWrite(arr);
