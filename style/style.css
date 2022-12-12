@@ -64,21 +64,32 @@ table {
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  border-collapse: separate;
-  border: 2px solid #991c30;
-  border-spacing: 2px;
   line-height: 1.5;
   font-size: 1.1em;
+  width: 95%;
+  text-align: center;
+  border: none;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-top: 2px solid #991c30;
+  border-bottom: 2px solid #991c30;
+}
+table tr:nth-child(2n+1) {
+  background: #fae9e9;
+  border: none;
+  border-top: 2px solid #991c30;
+  border-bottom: 2px solid #991c30;
 }
 th {
-  border-collapse: separate;
-  border: 1px solid #991c30;
-  padding: 3px 10px;
+  border: none;
+  border-top: 2px solid #991c30;
+  border-bottom: 2px solid #991c30;
 }
 td {
-  border-collapse: separate;
-  border: 1px solid #991c30;
-  padding: 3px 10px;
+  border: none;
+  padding: 10px;
+  border-top: 2px solid #991c30;
+  border-bottom: 2px solid #991c30;
 }
 
 
