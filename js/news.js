@@ -37,7 +37,7 @@ function htmlWrite(dataList){
     });
     insert +='</tr>'
   });
-  output.innerHTML = insert;
+  output.insertAdjacentHTML('afterbegin', insert);
 }
 
 }
