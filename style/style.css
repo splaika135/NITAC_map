@@ -181,6 +181,7 @@ table {
   border-top: 2px solid #991c30;
   border-bottom: 2px solid #991c30;
   table-layout: fixed;
+  word-break: break-all;
 }
 
 
