@@ -118,6 +118,7 @@ td {
 
 
 .navfooter {
+  margin: 30px 0 0 0;
   position: relative;
   background-color: #dcdcdc;
   padding: 1rem 0;
@@ -135,7 +136,6 @@ td {
 
 
 footer {
-  margin: 30px 0 0 0;
   position: relative;
   background-color: #991c30;
   padding: 1rem 0;
