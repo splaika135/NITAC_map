@@ -121,6 +121,7 @@ td {
   background-color: #dcdcdc;
   padding: 1rem 0;
   display: flex;
+  justify-content: center;
 }
 .navfooter__wrapper {
   display: flex; 
