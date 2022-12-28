@@ -122,6 +122,10 @@ td {
   padding: 1rem 0;
   display: flex;
 }
+.navfooter__wrapper {
+  display: flex; 
+  align-items: center;
+}
 .navfooter__item a {
   padding: 1.5rem 1rem;
   color: #000000; 
@@ -159,13 +163,6 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-
-
-.navfooter__wrapper {
-  display: flex; 
-  flex-direction: row;
 }
 
 
@@ -218,13 +215,6 @@ table {
   font-size:1.0em;
   border-radius:5px;
   -webkit-border-radius:5px;
-}
-
-
-.navfooter__wrapper {
-  display: flex; 
-  flex-direction: columon;
-  align-items: center;
 }
 
 
