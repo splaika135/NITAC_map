@@ -116,6 +116,18 @@ td {
 }
 
 
+.navfooter {
+  position: relative;
+  background-color: #dcdcdc;
+  padding: 1rem 0;
+  display: flex;
+}
+.navfooter__item a {
+  padding: 1.5rem 1rem;
+  color: #000000; 
+}
+
+
 footer {
   margin: 30px 0 0 0;
   position: relative;
@@ -131,8 +143,10 @@ footer {
 
 
 
-/*PC用→*/
+
 @media (min-width: 800px) {
+/*PC用→*/
+
 
 .textBox {
   width: 100%;
@@ -148,13 +162,23 @@ footer {
 }
 
 
+
+.navfooter__wrapper {
+  display: flex; 
+  flex-direction: row;
 }
+
+
 /*→PC用*/
+}
 
 
 
-/*スマホ用→*/
+
+
 @media all and (max-width: 799px) {
+/*スマホ用→*/
+
 
 .textBox {
   width: 100%;  
@@ -197,5 +221,13 @@ table {
 }
 
 
+.navfooter__wrapper {
+  display: flex; 
+  flex-direction: columon;
+  align-items: center;
 }
+
+
 /*→スマホ用*/
+}
+
