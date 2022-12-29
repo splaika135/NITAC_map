@@ -40,11 +40,23 @@ https://developer.mozilla.org/ja/docs/Learn/CSS/Styling_text/Fundamentals
 
 https://developer.mozilla.org/ja/docs/Web/API/Element/insertAdjacentHTML
 
+http://www.shurey.com/js/samples/2_msg10.html
+
+https://coliss.com/articles/build-websites/operation/work/automatically-updating-copyright-year.html
+
+https://agohack.com/html-target-blank-noopener/
+
+https://dubdesign.net/download/html-css/javascript-moresearch/
+
+https://1-notes.com/javascript-search-form-event/
+
 
 ## 借りた素材など
 ©shadeed
 https://github.com/shadeed/headers-css/
 
+©kid0413
+https://codepen.io/kid0413/pen/MdvRwK
 
 ## 使用ツール
 https://pdf2png.com/ja/
