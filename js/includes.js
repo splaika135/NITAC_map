@@ -56,7 +56,7 @@ window.onload = function(){
       '<!-- <li class="navfooter__item"><a href="#">参考資料</a></li> -->'+
     '</ul>';
     
-    let footer = document.getElementById('navfooter'); // 追加する部分を取得
+    let navfooter = document.getElementById('navfooter'); // 追加する部分を取得
 
     navfooter.insertAdjacentHTML('afterbegin', navfooter_content);
 
