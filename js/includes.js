@@ -45,7 +45,7 @@ window.onload = function(){
 
     let header = document.getElementById('header'); // 追加する部分を取得
 
-    header.innerHTML = header_content; // innerHTMLでHTMLを追加
+    header.insertAdjacentHTML('afterbegin', header_content); // innerHTMLでHTMLを追加
 
 
 
