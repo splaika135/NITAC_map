@@ -67,5 +67,5 @@ window.onload = function(){
 
     let footer = document.getElementById('footer'); // 追加する部分を取得
 
-    footer.insertAdjacentHTML = footer_content; // insertAdjacentHTMLでHTMLを追加
+    footer.insertAdjacentHTML('afterbegin', footer_content); // insertAdjacentHTMLでHTMLを追加
 }
