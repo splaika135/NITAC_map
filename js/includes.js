@@ -58,7 +58,7 @@ window.onload = function(){
     
     let footer = document.getElementById('navfooter'); // 追加する部分を取得
 
-    navfooter.insertAdjacentHTML('afterbegin', header_content);
+    navfooter.insertAdjacentHTML('afterbegin', navfooter_content);
 
 
     // footer 
