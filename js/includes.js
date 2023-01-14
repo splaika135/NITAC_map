@@ -3,8 +3,7 @@ window.onload = function(){
 
 
     // head
-    let head_content = 
-    '<meta charset="utf-8">'+
+    let head_content = '<meta charset="utf-8">'+
     '<meta name="viewport" content="width=device-width, initial-scale=1.0">'+
     '<link rel="stylesheet" href="style/reset.min.css">'+
     '<link rel="stylesheet"　type="text/css" href="style/style.css">'+
@@ -17,8 +16,7 @@ window.onload = function(){
 
 
     // header
-    let header_content = 
-    '<div class="wrapper site-header__wrapper">'+
+    let header_content = '<div class="wrapper site-header__wrapper">'+
       '<div class="site-header__start">'+
         '<a style="margin-left:15px" href="index.html" class="brand">明石高専マップ</a>'+
       '</div>'+
@@ -49,8 +47,7 @@ window.onload = function(){
 
 
     // navfooter
-    let navfooter_content = 
-    '<ul class="navfooter__wrapper">'+
+    let navfooter_content = '<ul class="navfooter__wrapper">'+
       '<!-- <li class="navfooter__item"><a href="#">QRコード</a></li> -->'+
       '<li class="navfooter__item"><a href="https://github.com/splaika135/NITAC_map">GitHub</a></li>'+
       '<!-- <li class="navfooter__item"><a href="#">参考資料</a></li> -->'+
@@ -62,8 +59,7 @@ window.onload = function(){
 
 
     // footer 
-    let footer_content = 
-    '<p id="copyright" style="color: #FFFFFF;"></p>';
+    let footer_content = '<p id="copyright" style="color: #FFFFFF;"></p>';
 
     let footer = document.getElementById('footer'); // 追加する部分を取得
 
