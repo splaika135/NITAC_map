@@ -3,9 +3,11 @@ window.onload = function(){
 
 
     // head
-    let head_content = `<link rel="stylesheet" href="style/reset.min.css">
+    const head_content = `
+    <link rel="stylesheet" href="style/reset.min.css">
     <link rel="stylesheet" type="text/css" href="style/style.css">
-    <link rel="stylesheet" href="style/header-3.css">`;
+    <link rel="stylesheet" href="style/header-3.css">
+    `;
 
     let head = document.getElementById('head'); // 追加する部分を取得
 
@@ -14,7 +16,8 @@ window.onload = function(){
 
 
     // header
-    let header_content = `<div class="wrapper site-header__wrapper">
+    const header_content = `
+    <div class="wrapper site-header__wrapper">
       <div class="site-header__start">
         <a style="margin-left:15px" href="index.html" class="brand">明石高専マップ</a>
       </div>
@@ -36,7 +39,8 @@ window.onload = function(){
           </ul>
         </nav>
       </div>
-    </div>`;
+    </div>
+    `;
 
     let header = document.getElementById('header'); // 追加する部分を取得
 
