@@ -57,7 +57,7 @@ window.onload = function(){
 
 
     // footer 
-    let footer_content = `<p id="copyright" style="color: #FFFFFF;"></p>`;
+    let footer_content = `<p id="copyright" style="color: #FFFFFF;">${years}</p>`;
 
     let footer = document.getElementById('footer'); // 追加する部分を取得
 
