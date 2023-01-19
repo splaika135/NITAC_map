@@ -9,7 +9,7 @@ window.onload = function(){
     <link rel="stylesheet" href="style/header-3.css">
     `;
 
-    let head = document.getElementById('head'); // 追加する部分を取得
+    const head = document.getElementById('head'); // 追加する部分を取得
 
     head.insertAdjacentHTML('afterbegin', head_content); // insertAdjacentHTMLでHTMLを追加
 
@@ -42,28 +42,28 @@ window.onload = function(){
     </div>
     `;
 
-    let header = document.getElementById('header'); // 追加する部分を取得
+    const header = document.getElementById('header'); // 追加する部分を取得
 
     header.insertAdjacentHTML('afterbegin', header_content); // insertAdjacentHTMLでHTMLを追加
 
 
 
     // navfooter
-    let navfooter_content = `<ul class="navfooter__wrapper">
+    const navfooter_content = `<ul class="navfooter__wrapper">
       <!-- <li class="navfooter__item"><a href="#">QRコード</a></li> -->
       <li class="navfooter__item"><a href="https://github.com/splaika135/NITAC_map">GitHub</a></li>
       <!-- <li class="navfooter__item"><a href="#">参考資料</a></li> -->
     </ul>`;
     
-    let navfooter = document.getElementById('navfooter'); // 追加する部分を取得
+    const navfooter = document.getElementById('navfooter'); // 追加する部分を取得
 
     navfooter.insertAdjacentHTML('afterbegin', navfooter_content);
 
 
     // footer 
-    let footer_content = `<p id="copyright" style="color: #FFFFFF;"></p>`;
+    const footer_content = `<p id="copyright" style="color: #FFFFFF;"></p>`;
 
-    let footer = document.getElementById('footer'); // 追加する部分を取得
+    const footer = document.getElementById('footer'); // 追加する部分を取得
 
     footer.insertAdjacentHTML('afterbegin', footer_content); // insertAdjacentHTMLでHTMLを追加
 }
