@@ -50,6 +50,8 @@ https://dubdesign.net/download/html-css/javascript-moresearch/
 
 https://1-notes.com/javascript-search-form-event/
 
+https://onedarling.site/programming/javascript/window-onload/
+
 
 ## 借りた素材など
 ©shadeed
