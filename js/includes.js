@@ -60,8 +60,8 @@ window.onload = function(){
     navfooter.insertAdjacentHTML('afterbegin', navfooter_content);
 
 
-    // footer 
-    const footer_content = `<p id="copyright" style="color: #FFFFFF;"></p>`;
+    // footer
+    const footer_content = `🄫2022~${new Date().getFullYear()} Co+work21(2022)`;
 
     const footer = document.getElementById('footer'); // 追加する部分を取得
 
