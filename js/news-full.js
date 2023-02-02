@@ -1,6 +1,6 @@
 window.onload = function(){
 
-let output = document.getElementById("table");
+let tableoutput = document.getElementById("table");
 getCsv("https://splaika135.github.io/NITAC_map/news.csv");
 
 function getCsv(data){
@@ -21,23 +21,23 @@ function getCsv(data){
 
 function csvArr(dataArr){
 	let arr =[];
-  let list = dataArr.split('\n');
-  for(let i = 0; i < list.length - 1; i++){
-    arr[i] = list[i].split(',');
+  let newslist = dataArr.split('\n');
+  for(let i = 0; i < newslist.length - 1; i++){
+    arr[i] = newslist[i].split(',');
   }
 	htmlWrite(arr);
 }
 
 function htmlWrite(dataList){
-	let insert ="";
+	let tableinsert ="";
   dataList.forEach(element => {
-    insert +='<tr>';
+    tableinsert +='<tr>';
     element.forEach((childElement) =>{
-      insert +=`<td>${childElement}</td>`;
+      tableinsert +=`<td>${childElement}</td>`;
     });
-    insert +='</tr>'
+    tableinsert +='</tr>'
   });
-  output.insertAdjacentHTML('afterbegin', insert);
+  tableoutput.insertAdjacentHTML('afterbegin', tableinsert);
 }
 
 }
