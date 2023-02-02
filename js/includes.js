@@ -78,7 +78,7 @@ window.onload = function(){
 
 
     // footer
-    const footer_content = `🄫2022~${new Date().getFullYear()} Co+work21(2022)`;
+    const footer_content = `<p>🄫2022~${new Date().getFullYear()} Co+work21(2022)</p>`;
 
     const footer = document.getElementById('footer'); // 追加する部分を取得
 
