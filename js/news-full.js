@@ -1,43 +1,39 @@
 window.onload = function(){
-
-let newsoutput = document.getElementById("newstable");
-getCsv("/NITAC_map/news.csv");
-
-function getCsv(csvdata){
-	let csvxhr = new XMLHttpRequest(); 
-  csvxhr.open("GET",csvdata,true);
-  csvxhr.onload = function (e) {
-		if (csvxhr.readyState === 4) {
-		  if (csvxhr.status === 200) {
+let output = document.getElementById("table");
+getCsv("https://splaika135.github.io/NITAC_map/news.csv");
+function getCsv(data){
+	let xhr = new XMLHttpRequest(); 
+  xhr.open("GET",data,true);
+  xhr.onload = function (e) {
+		if (xhr.readyState === 4) {
+		  if (xhr.status === 200) {
 			  let responce = xhr.responseText;
 			  csvArr(responce);
 		  } else {
-      console.error(csvxhr.statusText);
+      console.error(xhr.statusText);
       }
     }
 	};
-	csvxhr.send(null);
+	xhr.send(null);
 }
-
-function csvArr(csvdataArr){
-	let csvarr =[];
-  let newslist = csvdataArr.split('\n');
-  for(let i = 0; i < newslist.length - 1; i++){
-    csvarr[i] = newslist[i].split(',');
+function csvArr(dataArr){
+	let arr =[];
+  let list = dataArr.split('\n');
+  for(let i = 0; i < list.length - 1; i++){
+    arr[i] = list[i].split(',');
   }
-	htmlWrite(csvarr);
+	htmlWrite(arr);
 }
-
-function htmlWrite(csvdataList){
-	let newsinsert ="";
-  csvdataList.forEach(element => {
-    newsinsert +='<tr>';
+function htmlWrite(dataList){
+	let insert ="";
+  dataList.forEach(element => {
+    insert +='<tr>';
     element.forEach((childElement) =>{
-      newsinsert +=`<td>${childElement}</td>`;
+      insert +=`<td>${childElement}</td>`;
     });
-    newsinsert +='</tr>'
+    insert +='</tr>'
   });
-  newsoutput.insertAdjacentHTML('afterbegin', newsinsert);
+  output.insertAdjacentHTML('afterbegin', insert);
 }
 
 }
