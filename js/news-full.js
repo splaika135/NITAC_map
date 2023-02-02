@@ -1,6 +1,8 @@
 window.onload = function(){
+
 let output = document.getElementById("table");
 getCsv("https://splaika135.github.io/NITAC_map/news.csv");
+
 function getCsv(data){
 	let xhr = new XMLHttpRequest(); 
   xhr.open("GET",data,true);
@@ -16,6 +18,7 @@ function getCsv(data){
 	};
 	xhr.send(null);
 }
+
 function csvArr(dataArr){
 	let arr =[];
   let list = dataArr.split('\n');
@@ -24,6 +27,7 @@ function csvArr(dataArr){
   }
 	htmlWrite(arr);
 }
+
 function htmlWrite(dataList){
 	let insert ="";
   dataList.forEach(element => {
