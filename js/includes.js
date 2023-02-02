@@ -76,7 +76,7 @@ window.onload = function(){
     
     const navfooter = document.getElementById('navfooter'); // 追加する部分を取得
 
-    navfooter.insertAdjacentHTML('afterbegin', navfooter_content);
+    navfooter.insertAdjacentHTML('afterbegin', navfooter_content); // insertAdjacentHTMLでHTMLを追加
 
 
     // footer
