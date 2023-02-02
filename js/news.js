@@ -1,4 +1,4 @@
-window.onload = function(){
+window.addEventListener('load',function(){
 
 let output = document.getElementById("table");
 getCsv("/NITAC_map/news.csv");
@@ -40,4 +40,4 @@ function htmlWrite(dataList){
   output.insertAdjacentHTML('afterbegin', insert);
 }
 
-}
+});
