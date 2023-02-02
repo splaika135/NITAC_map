@@ -1,43 +1,43 @@
 window.onload = function(){
 
-let tableoutput = document.getElementById("table");
+let newsoutput = document.getElementById("newstable");
 getCsv("/NITAC_map/news.csv");
 
-function getCsv(data){
-	let xhr = new XMLHttpRequest(); 
-  xhr.open("GET",data,true);
-  xhr.onload = function (e) {
-		if (xhr.readyState === 4) {
-		  if (xhr.status === 200) {
+function getCsv(csvdata){
+	let csvxhr = new XMLHttpRequest(); 
+  csvxhr.open("GET",csvdata,true);
+  csvxhr.onload = function (e) {
+		if (csvxhr.readyState === 4) {
+		  if (csvxhr.status === 200) {
 			  let responce = xhr.responseText;
 			  csvArr(responce);
 		  } else {
-      console.error(xhr.statusText);
+      console.error(csvxhr.statusText);
       }
     }
 	};
-	xhr.send(null);
+	csvxhr.send(null);
 }
 
-function csvArr(dataArr){
-	let arr =[];
-  let newslist = dataArr.split('\n');
+function csvArr(csvdataArr){
+	let csvarr =[];
+  let newslist = csvdataArr.split('\n');
   for(let i = 0; i < newslist.length - 1; i++){
-    arr[i] = newslist[i].split(',');
+    csvarr[i] = newslist[i].split(',');
   }
-	htmlWrite(arr);
+	htmlWrite(csvarr);
 }
 
-function htmlWrite(dataList){
-	let tableinsert ="";
-  dataList.forEach(element => {
-    tableinsert +='<tr>';
+function htmlWrite(csvdataList){
+	let newsinsert ="";
+  csvdataList.forEach(element => {
+    newsinsert +='<tr>';
     element.forEach((childElement) =>{
-      tableinsert +=`<td>${childElement}</td>`;
+      newsinsert +=`<td>${childElement}</td>`;
     });
-    tableinsert +='</tr>'
+    newsinsert +='</tr>'
   });
-  tableoutput.insertAdjacentHTML('afterbegin', tableinsert);
+  newsoutput.insertAdjacentHTML('afterbegin', newsinsert);
 }
 
 }
