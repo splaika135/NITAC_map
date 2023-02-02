@@ -11,7 +11,7 @@ window.addEventListener('load', function(){
 
     const head = document.getElementById('head'); // 追加する部分を取得
 
-    head.insertAdjacentHTML('afterbegin', head_content); // insertAdjacentHTMLでHTMLを追加
+    head.insertAdjacentHTML('beforeend', head_content); // insertAdjacentHTMLでHTMLを追加
 
 
 
@@ -44,7 +44,7 @@ window.addEventListener('load', function(){
 
     const header = document.getElementById('header'); // 追加する部分を取得
 
-    header.insertAdjacentHTML('afterbegin', header_content); // insertAdjacentHTMLでHTMLを追加
+    header.insertAdjacentHTML('beforeend', header_content); // insertAdjacentHTMLでHTMLを追加
 
 
     // header-3.js
@@ -76,15 +76,17 @@ window.addEventListener('load', function(){
     
     const navfooter = document.getElementById('navfooter'); // 追加する部分を取得
 
-    navfooter.insertAdjacentHTML('afterbegin', navfooter_content); // insertAdjacentHTMLでHTMLを追加
+    navfooter.insertAdjacentHTML('beforeend', navfooter_content); // insertAdjacentHTMLでHTMLを追加
 
 
     // footer
-    const footer_content = `<p style="color: #FFFFFF;">🄫2022~${new Date().getFullYear()} Co+work21(2022)</p>`;
+    const footer_content = `
+    <p style="color: #FFFFFF;">🄫2022~${new Date().getFullYear()} Co+work21(2022)</p>
+    `;
 
     const footer = document.getElementById('footer'); // 追加する部分を取得
 
-    footer.insertAdjacentHTML('afterbegin', footer_content); // insertAdjacentHTMLでHTMLを追加
+    footer.insertAdjacentHTML('beforeend', footer_content); // insertAdjacentHTMLでHTMLを追加
 
 
 
