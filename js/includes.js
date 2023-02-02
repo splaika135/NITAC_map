@@ -66,11 +66,13 @@ window.onload = function(){
 
 
     // navfooter
-    const navfooter_content = `<ul class="navfooter__wrapper">
+    const navfooter_content = `
+      <ul class="navfooter__wrapper">
       <!-- <li class="navfooter__item"><a href="#">QRコード</a></li> -->
       <li class="navfooter__item"><a href="https://github.com/splaika135/NITAC_map">GitHub</a></li>
       <!-- <li class="navfooter__item"><a href="#">参考資料</a></li> -->
-    </ul>`;
+    </ul>
+    `;
     
     const navfooter = document.getElementById('navfooter'); // 追加する部分を取得
 
