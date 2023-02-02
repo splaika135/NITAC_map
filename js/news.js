@@ -1,4 +1,4 @@
-window.addEventListener('load',function(){
+window.addEventListener('load', function(){
 
 let output = document.getElementById("table");
 getCsv("/NITAC_map/news.csv");
