@@ -1,4 +1,4 @@
-window.onload = function(){
+window.addEventListener('load', function(){
 
 
 
@@ -85,4 +85,4 @@ window.onload = function(){
     const footer = document.getElementById('footer'); // 追加する部分を取得
 
     footer.insertAdjacentHTML('afterbegin', footer_content); // insertAdjacentHTMLでHTMLを追加
-}
+});
