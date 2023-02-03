@@ -3,9 +3,11 @@
 https://splaika135.github.io/NITAC_map/index.html
 
 ## 使い方
+1.右上のメニューから見たいページを選ぶ
 
+2.マップ画像が表示される
 
-## 参考
+## 参考資料
 https://sakichin.com/chapter02/chapter02_step03_05.html
 
 https://qiita.com/mf37459/items/3a5a6f39f6816889bdb6/
