@@ -60,6 +60,8 @@ https://qiita.com/automatic9045/items/82312c0e8b173b53e57d
 
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Template_literals
 
+https://www.webcreatorbox.com/tech/javascript-deprecated
+
 ## 借りた素材など
 ©shadeed
 https://github.com/shadeed/headers-css/
