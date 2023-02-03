@@ -19,7 +19,7 @@ window.addEventListener('load', function(){
     const header_content = `
     <div class="wrapper site-header__wrapper">
       <div class="site-header__start">
-        <a style="margin-left:15px" href="index.html" class="brand">明石高専マップ</a>
+        <a style="margin-left:15px" href="/NITAC_map/index.html" class="brand">明石高専マップ</a>
       </div>
       <div class="site-header__end">
         <nav class="nav">
@@ -68,9 +68,11 @@ window.addEventListener('load', function(){
     // navfooter
     const navfooter_content = `
       <ul class="navfooter__wrapper">
+      <!-- <li class="navfooter__item"><a href="/NITAC_map/help.html">ヘルプ</a></li> -->
       <!-- <li class="navfooter__item"><a href="#">QRコード</a></li> -->
       <li class="navfooter__item"><a href="https://github.com/splaika135/NITAC_map">GitHub</a></li>
-      <!-- <li class="navfooter__item"><a href="#">参考資料</a></li> -->
+      <!-- <li class="navfooter__item"><a href="/NITAC_map/etcetera.html">雑記</a></li> -->
+      <!-- <li class="navfooter__item"><a href="/NITAC_map/reference.html">参考資料</a></li> -->
     </ul>
     `;
     
