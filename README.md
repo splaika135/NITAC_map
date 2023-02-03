@@ -54,6 +54,9 @@ https://1-notes.com/javascript-search-form-event/
 
 https://onedarling.site/programming/javascript/window-onload/
 
+https://blog.pocopota.com/website-include-js/
+
+https://qiita.com/automatic9045/items/82312c0e8b173b53e57d
 
 ## 借りた素材など
 ©shadeed
