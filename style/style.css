@@ -135,20 +135,6 @@ td {
 	top: 0;
 	left: 0;
 }
-.popup_window {
-	width: 525vw;
-	max-width: 525px;
-	height: 525px;
-	background-color: #ffffff;
-	border-radius: 6px;
-	position: fixed;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
 .close {
 	cursor:pointer;
 	position: absolute;
@@ -209,6 +195,22 @@ footer {
 }
 
 
+.popup_window {
+	width: 90vw;
+	max-width: 400px;
+	height: 400px;
+	background-color: #ffffff;
+	border-radius: 6px;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
 /*→PC用*/
 }
 
@@ -258,6 +260,22 @@ table {
   font-size:1.0em;
   border-radius:5px;
   -webkit-border-radius:5px;
+}
+
+
+.popup_window {
+	width: 90vw;
+	max-width: 300px;
+	height: 300px;
+	background-color: #ffffff;
+	border-radius: 6px;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 
