@@ -67,7 +67,7 @@ window.addEventListener('load', function(){
 
     // navfooter
     const navfooter_content = `
-      <ul class="navfooter__wrapper">
+    <ul class="navfooter__wrapper">
       <!-- <li class="navfooter__item"><a href="/NITAC_map/help.html">ヘルプ</a></li> -->
       <label class="open" for="pop-up"><p style="font-weight: bold;padding: 0rem 1rem;">QRコード</p></label><input type="checkbox" id="pop-up"><div class="overlay"><div class="popup_window"><label class="close" for="pop-up">×</label><img src="/NITAC_map/images/shareqr.png" style="width: 90%;" title="シェアQR"></div></div>
       <li class="navfooter__item"><a href="https://github.com/splaika135/NITAC_map">GitHub</a></li>
